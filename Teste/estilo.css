@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Merienda'); /*fonte baixada*/
+Body {
+} /*Estilos para o body*/
+H1 {
+} /*Estitlos para h1*/
+nav#menu ul {
+	list-style: none;
+	
+} /*Tira o marcador do item do menu*/
+nav#menu li {
+	display: inline-block /*faz o menu ser exibido na horizontal*/;
+}
+#site {
+	width: 100%;
+	/* Definirmos a altura da página*/
+	height: 100%;
+	/* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+  /*top : posição de cima */
+	margin-top: 0;
+	/* left: posição de esquerda*/
+	margin-left: auto;
+	/* bottom : posição de baixo */
+	margin-bottom: 0;
+	/* right : posição de direita */
+	margin-right: auto;
+	position: fixed;
+	min-width: 500px;
+	min-height: 800px;
+}
+/*configurações do título*/
+.titulo {
+	font-family: 'Merienda', 'cursive';
+	text-align: right;
+	color: #FFF;
+	font-size: 20px;
+	width:100%;
+	background-image:url(_imagens/t1.jpg);
+	background-position: top;
+	background-attachment: scroll;
+	background-clip: border-box;
+	padding: 1px;
+	position: relative;
+	border-color: white;
+	border-style: groove;
+	border-radius:0px;
+	margin-top: 0px;
+	
+}
+.painel {
+	position: relative;
+	top: 0px;
+	text-align: center;
+	
+}
+.painel:hover{  
+        transform: scale(1.3);
+	
+	}
+	
+.texto {
+	position: relative;
+	top: 100px;
+	left: 30px;
+	right: 30px;
+	font-family: 'Merienda', 'cursive';
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	padding: 30px;
+	color:#0000CD;
+	text-decoration:none;
+}
+.footer {
+	position: relative;
+	background-image: url(_imagens/menu.jpg);
+	top: 150px;
+	font-family: 'Merienda', 'cursive';
+	text-align: right;
+}
+h1 {
+	font-family: 'Merienda', 'cursive';
+	text-align: center;
+	color: #0D2035;
+	position: relative;
+	font-size: 25px;
+	text-shadow: 1px 1px #0CC;
+}
+#tabela {
+	width: 350px;
+	height: 200px;
+}
+#texto2 {
+	font-family: 'Merienda', 'cursive';
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 1px 1px #0CC;
+}
+.frase {
+	font-family: 'Merienda', 'cursive';
+	text-align: center;
+	font-size: 30px;
+	color: #0D2035;
+	position: relative;
+	top: 150px;
+}
+
+h2{font-family: 'Merienda', 'cursive';
+	text-align: center;
+	color: #0D2035;
+	position: relative;
+	font-size:17px;
+	text-shadow: 1px 1px #0CC;
+	}
+	
+	
+#name{ color:#000;
+text-align: center;
+font-size:57px;
+	
+	}
+#formulario{text-align:center;
+position:relative;
+	top:50px;}
+	
+.cores:link{
+	color:white;}
+  
+.cores:hover{
+	color:#3FF;}
+	
+	
+
+	
